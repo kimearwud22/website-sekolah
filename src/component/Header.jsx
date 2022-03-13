@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
@@ -41,7 +41,7 @@ const Header = () => {
                   <Link to="/gallery">GALLERY</Link>
                 </li>
                 <li>
-                  <Link to="/gallery">Tentang SMPI</Link>
+                  <Link to="/about">Tentang SMPI</Link>
                 </li>
                 <li>
                   <Link to="/gallery">PPDB</Link>
@@ -60,7 +60,9 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <Outlet/>
     </div>
+    
   );
 };
 export default Header;

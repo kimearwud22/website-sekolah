@@ -1,15 +1,21 @@
 // import logo from './logo.svg';
 import React from "react";
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GalleryApp from "./Gallery";
 import Home from "./Home";
+import Header from "./component/Header";
+import About from "./About";
 
 function App() {
   return (
     <BrowserRouter>
-    <Route path='/' component={Home} />
-    <Route path='/gallery' component={GalleryApp} />
-
+      <Routes>
+        <Route path="/" element={<Header />}>
+          <Route index element={<Home />} />
+          <Route path="gallery" element={<GalleryApp />} />
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
