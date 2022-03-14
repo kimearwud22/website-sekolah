@@ -44,7 +44,7 @@ const Header = () => {
                   <Link to="/about">Tentang SMPI</Link>
                 </li>
                 <li>
-                  <Link to="/gallery">PPDB</Link>
+                  <Link to="/ppdb">PPDB</Link>
                 </li>
 
                 <li>

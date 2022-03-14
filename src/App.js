@@ -5,6 +5,7 @@ import GalleryApp from "./Gallery";
 import Home from "./Home";
 import Header from "./component/Header";
 import About from "./About";
+import Ppdb from "./ppdb";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="gallery" element={<GalleryApp />} />
           <Route path="about" element={<About />} />
+          <Route path="ppdb" element={<Ppdb />} />
         </Route>
       </Routes>
     </BrowserRouter>
