@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import $ from "jquery";
+import 'aos'; 
 export default class Gallery extends Component {
   jQuerycode = () => {
     $(document).on("click", ".action-buttons .dropdown-menu", function (e) {
@@ -93,11 +94,11 @@ export default class Gallery extends Component {
                   <div className="foto-guru  card">
                     <img
                       className="card-img"
-                      src="img/IMG_20200428_170152.jpg"
+                      src="img/mapala.jpg"
                       alt="Vans"
                     />
                     <div className="card-body">
-                      <h4 className="card-title">Kitab</h4>
+                      <h4 className="card-title">Belajar DiAlam</h4>
                     </div>
                   </div>
                 </div>
@@ -110,6 +111,18 @@ export default class Gallery extends Component {
                     />
                     <div className="card-body">
                       <h4 className="card-title">Lomba Tahfidz Al-Quran</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-sm-8 col-md-6 col-lg-4 mt-3 mb-3 filter diniah lomba">
+                  <div className="foto-guru card">
+                    <img
+                      className="card-img"
+                      src="img/pai.jpeg"
+                      alt="Vans"
+                    />
+                    <div className="card-body">
+                      <h4 className="card-title">Lomba PAI Kabupaten</h4>
                     </div>
                   </div>
                 </div>
@@ -209,6 +222,7 @@ export default class Gallery extends Component {
               </div>
             </div>
           </div>
+          <hr />
         </div>
       </div>
     );
