@@ -6,6 +6,7 @@ import Home from "./Home";
 import Header from "./component/Header";
 import About from "./About";
 import Ppdb from "./ppdb";
+// import NotFound from "./404";
 
 function App() {
   return (
@@ -23,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+// <Route path="*" element={< NotFound/>} />

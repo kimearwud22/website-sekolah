@@ -27,8 +27,8 @@ const Penerimaan = () => {
               className="img-fluid"
               alt="..."
             />
-          </div>
-          <button type="button" className="btn btn-outline-primary">
+          </div> 
+          <button type="button" className="btn btn-outline-primary mt-2">
             DOWNLOAD BROSUR
           </button>
         </div>

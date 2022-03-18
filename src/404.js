@@ -8,7 +8,7 @@ const NotFound =()=>{
             // router.go(-1)
             router.push('/');
         }, 3000);
-    },)
+    });
     return(
         <div>
             <h1>oops link tidak ada</h1>
