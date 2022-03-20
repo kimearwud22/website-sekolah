@@ -6,6 +6,7 @@ import Home from "./Home";
 import Header from "./component/Header";
 import About from "./About";
 import Ppdb from "./ppdb";
+import Pendidik from "./pendidik";
 // import NotFound from "./404";
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
         <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
           <Route path="gallery" element={<GalleryApp />} />
-          <Route path="about" element={<About />} />
+          <Route path="pendidik" element={<Pendidik/>} />
           <Route path="ppdb" element={<Ppdb />} />
         </Route>
+        <Route path="about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

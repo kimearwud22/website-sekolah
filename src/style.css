@@ -110,30 +110,15 @@ h4 {
   max-height: 30px;
 }
 
-/**
-  * Appointment Button *
-  */
-.appointment-btn {
-  margin-left: 25px;
-  background: #1977cc;
-  color: #fff;
-  border-radius: 50px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-}
-
 .appointment-btn:hover {
   background: #166ab5;
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 268px) {
   .appointment-btn {
     margin: 0 15px 0 0;
-    padding: 6px 18px;
+    padding: 6px 15px;
   }
 }
 
@@ -192,30 +177,6 @@ h4 {
   color: #008036;
   border-bottom: 3px solid #008036;
 }
-.show-on-hover:hover > ul.dropdown-menu {
-  display: block;
-}
-.navbar a:hover,
-.navbar .active:focus,
-.navbar li:hover > a {
-  color: #008036;
-  border: none;
-}
-
-.btn.btn-lg {
-  padding: 10px 40px;
-}
-
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
-  color: #f5f5f5;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
-  outline: none;
-  margin: 20px auto;
-}
-
 /* section */
 section {
   padding: 60px 0;
